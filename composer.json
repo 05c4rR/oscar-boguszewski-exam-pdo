@@ -1,0 +1,22 @@
+{
+    "name": "hb/oscar-boguszewski-exam-pdo",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Oscar",
+            "email": "oscar.boguszewski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    },
+    "scripts": {
+    "start": "php -S localhost:8000"
+    },
+    "config": {
+    "process-timeout": 0
+    },
+    "require": {}
+}
